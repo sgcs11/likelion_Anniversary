@@ -99,7 +99,7 @@
 
         //기념일까지 남은 날짜는?
         var christmas = new Date('2022-12-25');
-        var timeDiff2 = christmas.getTime() - start.getTime();
+        var timeDiff2 = christmas.getTime() - now.getTime();
         var day2 = Math.floor(timeDiff2 / (1000 * 60 * 60 * 24) + 1);
         $('#christmas').text(day2 + '일 남음');
         //천일은 언제인가?
